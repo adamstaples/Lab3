@@ -1,8 +1,9 @@
 
 import java.util.*;
-public class AddressBook extends BuddyInfo {
+public class AddressBook  {
 	
 	private ArrayList<BuddyInfo> buddyList;
+	
 	public AddressBook(){
 		buddyList = new ArrayList<BuddyInfo>();
 	}
@@ -19,7 +20,7 @@ public class AddressBook extends BuddyInfo {
 	
 	public static void main(String[] args) {
 		System.out.println("Address Book");
-		BuddyInfo buddy = new BuddyInfo();
+		BuddyInfo buddy = new BuddyInfo("Tom", "Carelton", "613");
 		AddressBook book = new AddressBook();
 		book.addBuddy(buddy);
 		book.removeBuddy(buddy);
