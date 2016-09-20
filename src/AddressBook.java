@@ -19,5 +19,10 @@ public class AddressBook extends BuddyInfo {
 	
 	public static void main(String[] args) {
 		System.out.println("Address Book");
+		BuddyInfo buddy = new BuddyInfo();
+		AddressBook book = new AddressBook();
+		book.addBuddy(buddy);
+		book.removeBuddy(buddy);
+		
 	}
 }
