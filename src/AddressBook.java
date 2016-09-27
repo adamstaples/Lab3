@@ -18,6 +18,11 @@ public class AddressBook  {
 		}
 	}
 	
+	public void laughAtCharles(){
+		System.out.println("BAHAHHAHA CHARLES IS FUNNY BAAHAHA");
+		
+	}
+	
 	public static void main(String[] args) {
 		System.out.println("Address Book");
 		BuddyInfo buddy = new BuddyInfo("Tom", "Carelton", "613");
@@ -25,6 +30,7 @@ public class AddressBook  {
 		book.addBuddy(buddy);
 		book.removeBuddy(buddy);
 		System.out.println("hi");
+		book.laughAtCharles();
 		
 	}
 }
